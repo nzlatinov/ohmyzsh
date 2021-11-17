@@ -10,6 +10,6 @@ if [[ "$ENABLE_CORRECTION" == "true" ]]; then
   alias mysql='nocorrect mysql'
   alias sudo='nocorrect sudo'
   alias su='nocorrect su'
-
+  alias storybook='nocorrect yarn storybook'
   setopt correct_all
 fi
